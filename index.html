@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cat Therapy</title>
+</head>
+
+<body>
+    <div class="container is-fluid has-text-centered">
+        <section class="hero is-info">
+            <div class="hero-body ">
+                <div class="container">
+                    <h1 class="title">
+                        Cat Therapy
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <div class="tile is-ancestor">
+            <div class="tile is-4 is-vertical is-parent">
+                <div class="tile is-child box has-background-primary has-text-centered">
+                    <P>Some studies suggest that interactions with therapy animals can decrease stress in humans.
+                        Playing with or petting an animal can increase levels of the stress-reducing hormone oxytocin
+                        and decrease the production of the stress hormone cortisol.</P>
+                </div>
+                <div id="randomGifPic" class="tile is-child box has-background-danger has-text-centered">
+                    <p>So here is my little app that you can open up any time and click a button and you
+                        will get a new image of a cat.
+        
+                    </p>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <div class="tile is-child box has-background-grey-lighter">
+                    <div id="randomCatPic"></div>
+                    <button id="fetchCatPic" class="button is-info is-light">Fetch</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="footer has-background-info">
+        <div class="content has-text-centered ">
+            <img src="./Michelle Logo.png" alt="my profile">
+            <span> &copy; Copyright Mich.Chou 2020</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
